@@ -29,9 +29,21 @@ const gallery = document.querySelector(".gallery");
 
 const markup = images
   .map((image) => `<li class="list-item">
-  <img src="${image.url}" alt="${image.alt}" class="image"></li>`)
+  <img src="${image.url}" alt="${image.alt}" class="image" width = "360px" height = "300px"></li>`)
   .join("");
 
+gallery.style.display = "flex";
+gallery.style.flexWrap = "wrap";
+gallery.style.gap = "48px";
+gallery.style.justifyContent = "center";
+gallery.style.padding = "100px 156px";
+gallery.style.alignItems = "flex-start";
+gallery.style.listStyle = "none";
 
 gallery.insertAdjacentHTML("beforeend", markup);
+console.log(gallery);
+
+// const image = document.querySelectorAll(".listItem");
+// image.style.width = "360px";
+// image.style.height = "300px";
 
