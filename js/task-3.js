@@ -5,7 +5,7 @@ inputName.addEventListener("input", handInput);
 function handInput(event) {
     const outputName = document.querySelector("#name-output");
     if (event.target.value.trim() === "") {
-        outputName.textContent = "Anonymus";
+        outputName.textContent = "Anonymous";
     } else {
         outputName.textContent = event.currentTarget.value.trim();
     }

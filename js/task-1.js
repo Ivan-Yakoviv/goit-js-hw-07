@@ -1,6 +1,8 @@
 const mainList = document.querySelectorAll(".item");
-console.log(mainList.item.h2);
+console.log(mainList.textContent);
 console.log(`Number of categories: ${mainList.length}`);
-mainList.forEach((categorie) =>
-    console.log(`Categorie: ${categorie.title}`)
+mainList.forEach(function(categorie) {
+    console.log(`Categorie: ${categorie.title}`),
+    }
+    return categorie;
 );

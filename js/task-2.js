@@ -43,7 +43,3 @@ gallery.style.listStyle = "none";
 gallery.insertAdjacentHTML("beforeend", markup);
 console.log(gallery);
 
-// const image = document.querySelectorAll(".listItem");
-// image.style.width = "360px";
-// image.style.height = "300px";
-
