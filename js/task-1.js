@@ -44,10 +44,6 @@ mainList.forEach(function (item) {
     list.parentElement.style.padding = "16px";
     });
     
-    // name.classList.add("name");
-    
-    
-    // return item;
 const adList = document.querySelector("#categories");
 console.log(adList.innerHTML);
 // adList.style.justifyContent = "center";

@@ -29,12 +29,10 @@ const input = document.querySelector("input")
 form.style.display = "flex";
 form.style.width = "408px";
 form.style.flexDirection = "column";
-form.style.gap = "8px";
+form.style.gap = "16px";
 form.style.padding = "24px";
 
 label.style.display = "flex";
-label.style.width = "360px";
-// label.style.height = "40px";
 label.style.flexDirection = "column";
 label.style.alignItems = "flex-start";
 label.style.gap = "8px";
