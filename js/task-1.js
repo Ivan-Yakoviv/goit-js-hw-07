@@ -8,7 +8,6 @@ mainList.forEach(function (item) {
     const name = list.querySelectorAll("li");
     console.log(`Elements: ${name.length}`);
     name.forEach(function (nameItem) {
-        // const nameItemText = nameItem.querySelector("li");
         nameItem.style.border = "1px solid #808080";
         nameItem.style.borderRadius = "4px";
         nameItem.style.width = "360px";
@@ -26,7 +25,7 @@ mainList.forEach(function (item) {
     
     title.style.margin = "0";
     title.style.fontSize = "24px";
-    title.style.lineHeight = "1.33"; /* 133.333% */
+    title.style.lineHeight = "1.33"; 
     title.style.letterSpacing = "0.04em";
     list.style.padding = "0";
     list.style.listStyle = "none";
@@ -44,6 +43,5 @@ mainList.forEach(function (item) {
     list.parentElement.style.padding = "16px";
     });
     
-const adList = document.querySelector("#categories");
-console.log(adList.innerHTML);
-// adList.style.justifyContent = "center";
+// const adList = document.querySelector("#categories");
+// console.log(adList.innerHTML);

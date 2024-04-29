@@ -65,7 +65,7 @@ button.style.letterSpacing = "0.04em";
 
 
 
-console.log(form.innerHTML);
+// console.log(form.innerHTML);
 
 
 

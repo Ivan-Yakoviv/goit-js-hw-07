@@ -9,7 +9,6 @@ function handInput(event) {
     } else {
         outputName.textContent = event.currentTarget.value.trim();
     }
-    event.currentTarget.reset();
 }
 
 inputName.style.width = "360px"; 
